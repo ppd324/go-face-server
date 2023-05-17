@@ -1,0 +1,508 @@
+WORK=/tmp/go-build727956896
+github.com/Kagami/go-face
+mkdir -p $WORK/b193/
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+TERM='dumb' CGO_LDFLAGS='"-O2" "-g" "-ldlib" "-lblas" "-lcblas" "-llapack" "-ljpeg"' /usr/local/go/pkg/tool/linux_amd64/cgo -objdir $WORK/b193/ -importpath github.com/Kagami/go-face -- -I $WORK/b193/ -O2 -g ./error.go ./face.go
+cd $WORK/b193
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x001.o -c _cgo_export.c
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x002.o -c error.cgo2.c
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x003.o -c face.cgo2.c
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x004.o -c classify.cc
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x005.o -c facerec.cc
+WORK=/tmp/go-build2868418863
+github.com/Kagami/go-face
+mkdir -p $WORK/b193/
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+TERM='dumb' CGO_LDFLAGS='"-O2" "-g" "-ldlib" "-lblas" "-lcblas" "-llapack" "-ljpeg"' /usr/local/go/pkg/tool/linux_amd64/cgo -objdir $WORK/b193/ -importpath github.com/Kagami/go-face -- -I $WORK/b193/ -O2 -g ./error.go ./face.go
+cd $WORK/b193
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x001.o -c _cgo_export.c
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x002.o -c error.cgo2.c
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x003.o -c face.cgo2.c
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x004.o -c classify.cc
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x005.o -c facerec.cc
+# github.com/Kagami/go-face
+g++: fatal error: Killed signal terminated program cc1plus
+compilation terminated.
+WORK=/tmp/go-build3051947318
+github.com/Kagami/go-face
+mkdir -p $WORK/b193/
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+TERM='dumb' CGO_LDFLAGS='"-O2" "-g" "-ldlib" "-lblas" "-lcblas" "-llapack" "-ljpeg"' /usr/local/go/pkg/tool/linux_amd64/cgo -objdir $WORK/b193/ -importpath github.com/Kagami/go-face -- -I $WORK/b193/ -O2 -g ./error.go ./face.go
+cd $WORK/b193
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x001.o -c _cgo_export.c
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x002.o -c error.cgo2.c
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x003.o -c face.cgo2.c
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x004.o -c classify.cc
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x005.o -c facerec.cc
+WORK=/tmp/go-build2670797816
+github.com/Kagami/go-face
+mkdir -p $WORK/b193/
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+TERM='dumb' CGO_LDFLAGS='"-O2" "-g" "-ldlib" "-lblas" "-lcblas" "-llapack" "-ljpeg"' /usr/local/go/pkg/tool/linux_amd64/cgo -objdir $WORK/b193/ -importpath github.com/Kagami/go-face -- -I $WORK/b193/ -O2 -g ./error.go ./face.go
+cd $WORK/b193
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x001.o -c _cgo_export.c
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x002.o -c error.cgo2.c
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_x003.o -c face.cgo2.c
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x004.o -c classify.cc
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x005.o -c facerec.cc
+TERM='dumb' g++ -I . -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I $WORK/b193/ -O2 -g -std=c++1z -Wall -O3 -DNDEBUG -march=native -o $WORK/b193/_x006.o -c jpeg_mem_loader.cc
+cd $WORK/b193
+TERM='dumb' gcc -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -I ./ -O2 -g -o ./_cgo_main.o -c _cgo_main.c
+cd /home/FaceRecognition/server
+TERM='dumb' g++ -I /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e -fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=$WORK/b193=/tmp/go-build -gno-record-gcc-switches -o $WORK/b193/_cgo_.o $WORK/b193/_cgo_main.o $WORK/b193/_x001.o $WORK/b193/_x002.o $WORK/b193/_x003.o $WORK/b193/_x004.o $WORK/b193/_x005.o $WORK/b193/_x006.o -O2 -g -ldlib -lblas -lcblas -llapack -ljpeg
+TERM='dumb' /usr/local/go/pkg/tool/linux_amd64/cgo -dynpackage face -dynimport $WORK/b193/_cgo_.o -dynout $WORK/b193/_cgo_import.go
+cat >/tmp/go-build2670797816/b193/importcfg << 'EOF' # internal
+# import config
+packagefile image=/root/.cache/go-build/fd/fdd169615b49730fd854e7f7e552706dc0834c287b2f9527182948edbc055a60-d
+packagefile io/ioutil=/root/.cache/go-build/bb/bb5496659f5ff1573d07baf8d1ed0d862ec90d1fad178f74284f0680f5b16808-d
+packagefile math=/root/.cache/go-build/90/90e33f0d8f79c7585c1559728930cf6936e8721a38d6c2b25ab179c8cce393d3-d
+packagefile os=/root/.cache/go-build/9f/9f4f9105c37b2865b130bc5f783edf18bd1066b6d71eee53c8f53f2da3e87710-d
+packagefile runtime/cgo=/root/.cache/go-build/6f/6f539074954a6b94577cf9537eccbb057b6f2ac1ee8a4661e872d1c9cca52951-d
+packagefile syscall=/root/.cache/go-build/90/90c34d05dac34b8a71d3fe8c56629372bbf8c526cb99cd62209ee723971848f7-d
+EOF
+/usr/local/go/pkg/tool/linux_amd64/compile -o $WORK/b193/_pkg_.a -trimpath "$WORK/b193=>" -p github.com/Kagami/go-face -lang=go1.14 -buildid 9_xoD5S_SjrVhC68Rb4o/9_xoD5S_SjrVhC68Rb4o -goversion go1.20.4 -nolocalimports -importcfg $WORK/b193/importcfg -pack /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e/doc.go $WORK/b193/_cgo_gotypes.go $WORK/b193/error.cgo1.go $WORK/b193/face.cgo1.go $WORK/b193/_cgo_import.go
+cd /root/gowork/pkg/mod/github.com/!kagami/go-face@v0.0.0-20210630145111-0c14797b4d0e
+/usr/local/go/pkg/tool/linux_amd64/pack r $WORK/b193/_pkg_.a $WORK/b193/_x001.o $WORK/b193/_x002.o $WORK/b193/_x003.o $WORK/b193/_x004.o $WORK/b193/_x005.o $WORK/b193/_x006.o # internal
+/usr/local/go/pkg/tool/linux_amd64/buildid -w $WORK/b193/_pkg_.a # internal
+cp $WORK/b193/_pkg_.a /root/.cache/go-build/84/8401127f7cb09bda46e8c3873af4a6268c61abcc3f7c3148b1ca243a07a06032-d # internal
+command-line-arguments
+mkdir -p $WORK/b001/
+cat >/tmp/go-build2670797816/b001/importcfg << 'EOF' # internal
+# import config
+packagefile FaceRecognition/controllers=/root/.cache/go-build/f2/f28901f4e2e7ace0668437935c7be2a5c47ea3fab7e0ed2f12207ea7730bbc10-d
+packagefile fmt=/root/.cache/go-build/cf/cff345f70671e508776e8b231b79e372c4676ffe417a1a3806c5caf95e9bd7cf-d
+packagefile github.com/Kagami/go-face=/tmp/go-build2670797816/b193/_pkg_.a
+packagefile github.com/gin-gonic/gin=/root/.cache/go-build/4e/4e23ced3883b672d925de44c31384ec17908bb3730a3fe5ee58ee546cc3c6d3d-d
+packagefile path/filepath=/root/.cache/go-build/b6/b6b2fd5d9734839cd70067309a808dc4016208d4d5306cce861849e4b99d9e1a-d
+packagefile runtime=/root/.cache/go-build/f5/f5eae97d918371c7c83fe2a88e9dbb2fec09960c36aeb1d26b1c2f09d89305f9-d
+EOF
+cd /home/FaceRecognition/server
+/usr/local/go/pkg/tool/linux_amd64/compile -o $WORK/b001/_pkg_.a -trimpath "$WORK/b001=>" -p main -complete -buildid E5RlejCE0hskaJqWDdh5/E5RlejCE0hskaJqWDdh5 -goversion go1.20.4 -nolocalimports -importcfg $WORK/b001/importcfg -pack ./server.go
+/usr/local/go/pkg/tool/linux_amd64/buildid -w $WORK/b001/_pkg_.a # internal
+cp $WORK/b001/_pkg_.a /root/.cache/go-build/f8/f87a4c5dd2fe59e68e117e2b54838a56ff49457c6d6dd136a4781a27dfb27964-d # internal
+cat >/tmp/go-build2670797816/b001/importcfg.link << 'EOF' # internal
+packagefile command-line-arguments=/tmp/go-build2670797816/b001/_pkg_.a
+packagefile FaceRecognition/controllers=/root/.cache/go-build/f2/f28901f4e2e7ace0668437935c7be2a5c47ea3fab7e0ed2f12207ea7730bbc10-d
+packagefile fmt=/root/.cache/go-build/cf/cff345f70671e508776e8b231b79e372c4676ffe417a1a3806c5caf95e9bd7cf-d
+packagefile github.com/Kagami/go-face=/tmp/go-build2670797816/b193/_pkg_.a
+packagefile github.com/gin-gonic/gin=/root/.cache/go-build/4e/4e23ced3883b672d925de44c31384ec17908bb3730a3fe5ee58ee546cc3c6d3d-d
+packagefile path/filepath=/root/.cache/go-build/b6/b6b2fd5d9734839cd70067309a808dc4016208d4d5306cce861849e4b99d9e1a-d
+packagefile runtime=/root/.cache/go-build/f5/f5eae97d918371c7c83fe2a88e9dbb2fec09960c36aeb1d26b1c2f09d89305f9-d
+packagefile FaceRecognition/models=/root/.cache/go-build/32/321dd38f8f25217693d3323d1f7a3103d1946943fadb62721d7245c4ca987ace-d
+packagefile sync=/root/.cache/go-build/8c/8ca5cd7b10f028bde0add0570182855542c74dd7b0f3f185d05d55cfb2761225-d
+packagefile errors=/root/.cache/go-build/c3/c3ca51b3dbf02d375ed334068291399ab9045e70f116b083e81befc8b32073f9-d
+packagefile internal/fmtsort=/root/.cache/go-build/60/60db98208e085d1cb81f8849168369dd6dffaa75a2a8817537ff9840e544def8-d
+packagefile io=/root/.cache/go-build/3f/3f47dbb23d8a725a8add0ccee53d305b53d47438adf59f282afb4e58c957e946-d
+packagefile math=/root/.cache/go-build/90/90e33f0d8f79c7585c1559728930cf6936e8721a38d6c2b25ab179c8cce393d3-d
+packagefile os=/root/.cache/go-build/9f/9f4f9105c37b2865b130bc5f783edf18bd1066b6d71eee53c8f53f2da3e87710-d
+packagefile reflect=/root/.cache/go-build/d5/d5fd69d99da4bee5f1ec02b332f5f903af8e9e36df61950ce58553ec3f55b3a3-d
+packagefile sort=/root/.cache/go-build/15/15c97b460afc045139634ffdd726154b4fce1651774ecd3a8a04434096da3516-d
+packagefile strconv=/root/.cache/go-build/1a/1ad0a4bf26d6a401443abecef2c0d58a39aa53cee9a04b799ed3b380005d7b6a-d
+packagefile unicode/utf8=/root/.cache/go-build/3f/3f60081ee412ab78743d2744ee4e8db7b1a927b3480e8a0d74f175a6da78f2b4-d
+packagefile image=/root/.cache/go-build/fd/fdd169615b49730fd854e7f7e552706dc0834c287b2f9527182948edbc055a60-d
+packagefile io/ioutil=/root/.cache/go-build/bb/bb5496659f5ff1573d07baf8d1ed0d862ec90d1fad178f74284f0680f5b16808-d
+packagefile runtime/cgo=/root/.cache/go-build/6f/6f539074954a6b94577cf9537eccbb057b6f2ac1ee8a4661e872d1c9cca52951-d
+packagefile syscall=/root/.cache/go-build/90/90c34d05dac34b8a71d3fe8c56629372bbf8c526cb99cd62209ee723971848f7-d
+packagefile bufio=/root/.cache/go-build/93/9393d16472ea52ccc319e031485e92daccac29f662f8b13209c70aa5818ad08f-d
+packagefile bytes=/root/.cache/go-build/fd/fdcc7969c2d93c39fde4a427f3562da5d5d0e6b2accc974a930c1456c0dcd9db-d
+packagefile crypto/subtle=/root/.cache/go-build/05/05c934257aa5fcd550098c80cf708f7f2da79f744e1fb8b166484ff9c7730177-d
+packagefile encoding/base64=/root/.cache/go-build/90/90ec4181a06fd621bd1a2074038167a409109aac4358c27ed2d2c6adbf33cdd2-d
+packagefile encoding/xml=/root/.cache/go-build/63/637206d5ca29733a05eae34c03f1b3975d666b1662d89bc41eab9a78fd6030ca-d
+packagefile flag=/root/.cache/go-build/f8/f8eaf32a5bdcb55a8cf3ade5d88bf9b9067696a152ab75f34912c5c934bbd3d1-d
+packagefile github.com/gin-contrib/sse=/root/.cache/go-build/c8/c89b2448e126cb2972ebb382f27e5b7ddc475c07c937d1729dc39fb59a21d716-d
+packagefile github.com/gin-gonic/gin/binding=/root/.cache/go-build/bc/bcc60d1aa15458ea7dcedf14e31b4fb2771f5a1c326d3cab7cc1e54b42d1633c-d
+packagefile github.com/gin-gonic/gin/internal/bytesconv=/root/.cache/go-build/04/045d61b00384b2e98ed9b5b5887a1aa759f12496feabfeb7c0ece4ae7b5404f1-d
+packagefile github.com/gin-gonic/gin/internal/json=/root/.cache/go-build/ac/ac73bdd2dfc9caf4ecee9031f843e4b0149820e424955736faca750e74934605-d
+packagefile github.com/gin-gonic/gin/render=/root/.cache/go-build/bd/bd3757935b9f686687ff40693fb5b27392f7429d65dc9cb2c602ba94bed2ac72-d
+packagefile github.com/mattn/go-isatty=/root/.cache/go-build/9e/9e0a66af7d3aa6065f095f16f7c6fae50eff415e7d58edf4609365c95d0a4ca3-d
+packagefile golang.org/x/net/http2=/root/.cache/go-build/43/432c7f77ce8b8af7b02dd5d9ec467a87e99bdbe4b287ed43d77eb2abe0d30215-d
+packagefile golang.org/x/net/http2/h2c=/root/.cache/go-build/ca/ca5a5fdc89ae9cd26b077920045b6d42136bdeea6ea4b056e35da3b106294d08-d
+packagefile html/template=/root/.cache/go-build/6c/6ceb3806b91bc12be7f0a28cbfcfa5ef34170c396440577ee44f5eb274d69d5c-d
+packagefile log=/root/.cache/go-build/86/8645e33b0f15e0a03a3e7bd9fd8682e78aadef74921c67f1352d79bbd2f63f9f-d
+packagefile mime/multipart=/root/.cache/go-build/35/354cc14078f6892e6298388f6065e0387ebd42115e8ae11c48e60be8c4c7983e-d
+packagefile net=/root/.cache/go-build/7f/7f8c42b7197ab6e9ef7fd21b99660e17ec462550441b6021a10eef30fc9c8ba0-d
+packagefile net/http=/root/.cache/go-build/eb/eb6665bdaae4cc2e0f343fde44e18802edf310e5b2967852eae6be98a363b092-d
+packagefile net/http/httputil=/root/.cache/go-build/cf/cf94e07b8960cc1ade1a05e99de049d480f533fad4e7984510f45f14fa72b14e-d
+packagefile net/url=/root/.cache/go-build/5b/5b4e4cb863ab41eece805421e1f0431bd6ffa233625de667febd4643d754b6b3-d
+packagefile path=/root/.cache/go-build/e3/e3566d6415cf10d62a5e496f409fab9922ec7c27417ea8ce5fe5a5a331f9b7f5-d
+packagefile regexp=/root/.cache/go-build/ca/ca646976311d4223ca5e303bc2c859b9ed30204034e68c31ea2e878ea5d02d9a-d
+packagefile strings=/root/.cache/go-build/b5/b5359915b131fbf0ca93f87aec653e012cb67eb7eff34c14902099a137c7fd10-d
+packagefile time=/root/.cache/go-build/2d/2d930289955ec68431cef7e8d9bb7b5b2d6dccd93e45f68f63868cf7045146af-d
+packagefile unicode=/root/.cache/go-build/30/308aea17052e8d51adf8f3285ffddca41cb8097847ac43ecee40818df8954816-d
+packagefile io/fs=/root/.cache/go-build/2c/2c2609c66a19a399f3dab8b33bd4da54655aefd1e62414acfe3fe7ffda6e7770-d
+packagefile internal/abi=/root/.cache/go-build/97/97e46b4de6600d66a48c41890d9b418b13b20b22bb9116831e53bb277d3cc219-d
+packagefile internal/bytealg=/root/.cache/go-build/3d/3d8c80401513467afb4c0ae8bfb06d098f84d53f83c67e867a73d5a9bd52c621-d
+packagefile internal/coverage/rtcov=/root/.cache/go-build/92/926df4eb753eaf2114a466757f34e7afdfba1cf6ec04f1f2f34c85063d90e024-d
+packagefile internal/cpu=/root/.cache/go-build/06/0621a8c86a0f8a0475a63e05793305315e8701bc4b5d35227f39367f20a85bf7-d
+packagefile internal/goarch=/root/.cache/go-build/46/466361bf073f0514935abe900921ffaa557283dbec238ae7b237bf94e134e05e-d
+packagefile internal/goexperiment=/root/.cache/go-build/8d/8de78bf1ef63a81cea0842fb8c763a9242c3cb58755f22415c152ba39d813fbf-d
+packagefile internal/goos=/root/.cache/go-build/fc/fc2639e7d82ded59f6db84cb817dd44e79b4ce07bf385d940b6a585ea2251d8d-d
+packagefile runtime/internal/atomic=/root/.cache/go-build/9b/9b27352913aac753062d263539a28267204689b4f2b07b08874edc157621a704-d
+packagefile runtime/internal/math=/root/.cache/go-build/9f/9fdba1d4b52db1d9a6b1ef33709218afb9736e725ac2ed5b2d67732092133118-d
+packagefile runtime/internal/sys=/root/.cache/go-build/89/894fd9e5b3ec676bfc6db7792d9a73a660cab83b1469ee8b0ec1c7ab471453f3-d
+packagefile runtime/internal/syscall=/root/.cache/go-build/1d/1d8e21f62bbc5b5ae39b82f62d2103f987588ed752533b349b007897e395d080-d
+packagefile internal/race=/root/.cache/go-build/8d/8d8748d628c00b0e17ec37c3b489e3f71aa648f54ebd42850107185a25c9c5d0-d
+packagefile sync/atomic=/root/.cache/go-build/60/607d046547a61f90e414bc462b44559534605a2b3331d30e80987de78eccec02-d
+packagefile internal/reflectlite=/root/.cache/go-build/68/68e93efe874f570ec44808ba740ec9e7f85ae99517fc1aa4d7d47a25f1ba0dd5-d
+packagefile math/bits=/root/.cache/go-build/8a/8a8af225f53e3267a0e84e9236afd493febe04b00f6a1ebca9a385425ec5eb8b-d
+packagefile internal/itoa=/root/.cache/go-build/bf/bf12a0a0c4af776c027cff856238e7151c065ea070c1d8648374631c254efca2-d
+packagefile internal/poll=/root/.cache/go-build/8a/8a23e35e436231c957d53722575f693b9876e4444db8b34bddfa4b3af0d1a960-d
+packagefile internal/safefilepath=/root/.cache/go-build/7f/7f19737cdc4b7a80fe6c79a5773771840937e0649edced18bda637085f3eb5a7-d
+packagefile internal/syscall/execenv=/root/.cache/go-build/5a/5a5ad223fd7e129835d0f9a6c6ccecc70c2b50f40b78a6d4d20b06fafd51821b-d
+packagefile internal/syscall/unix=/root/.cache/go-build/42/426f444477d471f5cd570f0597420b970c802a8fbf1ca0ad38ac3b30f8bc3f0a-d
+packagefile internal/testlog=/root/.cache/go-build/cd/cde97acef886e8f87e5610349ed4489b23a91ea2a610ba3fc6155f73d540d8a1-d
+packagefile internal/unsafeheader=/root/.cache/go-build/c5/c5b46fe40f7e8de2493764975e120119586accdba6937c78b1d5361bf99bc5b9-d
+packagefile image/color=/root/.cache/go-build/9b/9b1f2cb666db199ff74854ce410656e04f9e3a351be9759d27f70f1403ab082d-d
+packagefile internal/oserror=/root/.cache/go-build/6b/6bfc832c097aa830784db2380ca2fbeb0c5bbe680d0ce64ceda4afd925e21407-d
+packagefile encoding/binary=/root/.cache/go-build/d6/d69a5bd97676a2805cdc0da7d5a8bd7bd0ac474ac6a1313b0b6a60d37786a966-d
+packagefile encoding=/root/.cache/go-build/3c/3c6a2df8b9437e6a6b26d6b2d43b26ac37e8128f439a914fd20b15f1a42a5890-d
+packagefile encoding/json=/root/.cache/go-build/1e/1e9b8665bbed29bf29ca8faf9c737e23b4fd6aac3e3908218d255d680edbeeb5-d
+packagefile github.com/go-playground/validator/v10=/root/.cache/go-build/77/77532ef1741aa42a74dad2ef76dc8b04fcc9784969f8ad72e22caa13d731eff9-d
+packagefile github.com/pelletier/go-toml/v2=/root/.cache/go-build/f1/f1717e7cfc6349163d22f845c5bbebb06396ddc34eb0792761bfdcddee077880-d
+packagefile github.com/ugorji/go/codec=/root/.cache/go-build/49/4944c89c43fd84f8eeb4ecb6ed6f8e7b61f0ab2308b5a332d4d47b017014736e-d
+packagefile google.golang.org/protobuf/proto=/root/.cache/go-build/ce/ce0625858a608a68a0f13d3c1260fd878b5ff5546fcca5174b43784109e1285c-d
+packagefile gopkg.in/yaml.v3=/root/.cache/go-build/12/1224be271c2bb102ebc3427d3dccafed25ae258f964b6355daa318aee758418a-d
+packagefile net/textproto=/root/.cache/go-build/a3/a3127c12a2764978f30cf76d84efbf587f5f4cd8c161032f235320fd1b206aa7-d
+packagefile golang.org/x/sys/unix=/root/.cache/go-build/cd/cd5bf935ade8d2127ee9b5ee6d469185b0642d31adbad433f144543693ec2678-d
+packagefile compress/gzip=/root/.cache/go-build/36/367db2c6ab9783147082c6de4c536bd67db82c077aed4b101feb5592484905ab-d
+packagefile context=/root/.cache/go-build/29/2977fea3cae8a45a208ce6e9949e7d910e881c89ddc4621b7e563820d617ca95-d
+packagefile crypto/rand=/root/.cache/go-build/23/237d675fe5179ba231ffd609ba7ebeac3d5dede331c7ae307598cd87f618c4be-d
+packagefile crypto/tls=/root/.cache/go-build/c9/c90372bf7d5402fbde8c41710246ab429147607204b946b3a1499932b597bf46-d
+packagefile golang.org/x/net/http/httpguts=/root/.cache/go-build/b8/b8dae3f23ac4d01df186390618e2dc008333f41fb3bd37916fb02ddd90c86974-d
+packagefile golang.org/x/net/http2/hpack=/root/.cache/go-build/10/10a9903c3e81bda06edb1460190d1ae3a844d6233d0e7299df09d6490e495a6b-d
+packagefile golang.org/x/net/idna=/root/.cache/go-build/19/19b57f6a7157b54672f30de884a168e708db13c7eab362f376845607d7b4bd3b-d
+packagefile math/rand=/root/.cache/go-build/b9/b99649e131c26491e3f160aaf06f74b6fe822c01b2c227ae0432d35d5989c344-d
+packagefile net/http/httptrace=/root/.cache/go-build/02/02f737f246b04d4e7362ac14b0e53b50ca7761493a79cf0d3b0e20d6f3325e84-d
+packagefile html=/root/.cache/go-build/4a/4ae21bae38677c8f3eeabacb54de631b72582465caa4a7266dbe7fe7c83a43fc-d
+packagefile internal/godebug=/root/.cache/go-build/47/472140403d3c36ea97e813b868242563f14506ffac27b6508bab2867b0dc8747-d
+packagefile text/template=/root/.cache/go-build/87/873d57daeec5b875f0a3f1e0e65791cb103d098d3323ced1555ae619ca342a22-d
+packagefile text/template/parse=/root/.cache/go-build/0e/0e9951506cd3c14f3594d47cb873b0a85448e1f1a02e611ec3b860aaf7d3e4ca-d
+packagefile mime=/root/.cache/go-build/a3/a3e97788e2bb7afd9908e56af76ee7302e6060191708f80ca822a9a3034d1da3-d
+packagefile mime/quotedprintable=/root/.cache/go-build/99/9993c93959a8c7a7477cf535e853ff9811f2e928850c3c63917b801222aca593-d
+packagefile vendor/golang.org/x/net/dns/dnsmessage=/root/.cache/go-build/6d/6d38f028585d57e6a6c1a8b72437a240973573649f0e54f2562dbe523a39b224-d
+packagefile internal/nettrace=/root/.cache/go-build/03/03f5b3287c603355d794cf221c08f8aac70a092fa78cba7a69a637740d4101fc-d
+packagefile internal/singleflight=/root/.cache/go-build/0d/0d697d1e203ed74455c17f2f5dd974635df61256710951e5c62eb455a5986808-d
+packagefile net/netip=/root/.cache/go-build/f3/f3ae181707b42ed0b23034432b3158e10be442df2ce054c491c53b9658a4acf5-d
+packagefile container/list=/root/.cache/go-build/a4/a4c9dc29196d109e02100894cf20b48a56088f4a28d6b66fb06aebd71652c023-d
+packagefile vendor/golang.org/x/net/http/httpguts=/root/.cache/go-build/ca/cab62b318c5dd95dff6254f676382831b1752dda3464dadf772b0ce666a80e90-d
+packagefile vendor/golang.org/x/net/http/httpproxy=/root/.cache/go-build/67/6795c8fdd0f3fde0be3d1a51c1d865074e75723304c659f757b1d09bb49849a7-d
+packagefile vendor/golang.org/x/net/http2/hpack=/root/.cache/go-build/9a/9a291b1174ca9fb3f3551a4b6eaf2c1a8e4f924a3e046558745b373428949ba6-d
+packagefile vendor/golang.org/x/net/idna=/root/.cache/go-build/d3/d3f29dd76244f99e27853c7289e6e7850833f99edc43f28f94fa0e9df9e0a496-d
+packagefile net/http/internal=/root/.cache/go-build/ca/ca03d5ced964791d319d6b880bcc24f704f3bc4d9bccb6a2e58ead7d26f63973-d
+packagefile net/http/internal/ascii=/root/.cache/go-build/95/958464213dddc6bd7be28ee2c6dfd775c078f1c3caad94c60bf332a0525e9b18-d
+packagefile regexp/syntax=/root/.cache/go-build/86/860bebf10ba9874e406a5fe40cc859b763ab4be80d558a635fea6fa5fcaf2bf5-d
+packagefile unicode/utf16=/root/.cache/go-build/b2/b2dbc741d5a9c1d9b0d40be6d90b9169351798477a1f721c942d70f23f64eb92-d
+packagefile crypto/sha256=/root/.cache/go-build/fa/fa38c099fedccf488d3b4fa6221679e5eb0ab049502d6c6a34e8caf3df582b1f-d
+packagefile encoding/hex=/root/.cache/go-build/6e/6e20bba0051a85fdaa9e84b47a77d1abb3637df7fba652a368ca5c5fd2a40b13-d
+packagefile github.com/go-playground/universal-translator=/root/.cache/go-build/0d/0d096deb76c236138aaec460ac6ed62796c27b9e36c5b3fca6376d172d186d1a-d
+packagefile github.com/leodido/go-urn=/root/.cache/go-build/74/7439781336fcc0c16e747cb3924551e661355fa6874c4ca852c66cfd911a0c54-d
+packagefile golang.org/x/crypto/sha3=/root/.cache/go-build/ac/ac4324778b9fa1add82e5ac7fc5eb8b9dbb79192a1f3f38117b21d9f03d07ca6-d
+packagefile golang.org/x/text/language=/root/.cache/go-build/06/06d53021f07bc2d99cae8b1e3a3cbd85c83a0cf7a42f6559fa40576056f19c9d-d
+packagefile github.com/pelletier/go-toml/v2/internal/characters=/root/.cache/go-build/fa/fac2cd15845952f869acb2c6873499999c2a8ff019e3735b719e4ebbc2a5ee89-d
+packagefile github.com/pelletier/go-toml/v2/internal/danger=/root/.cache/go-build/7a/7a4357f5b5b36c9a751d42aabef431ca609efdc4edce00af780fe0316942b6f7-d
+packagefile github.com/pelletier/go-toml/v2/internal/tracker=/root/.cache/go-build/d5/d5f7d48069ebd5066885318f2f8c1105b274080fafe9e7a347e2159d0a440cf9-d
+packagefile github.com/pelletier/go-toml/v2/unstable=/root/.cache/go-build/41/4156623f3730116faf587a4788ce13f48fbcfd8cbbdd37a5a0040d0e46538cc3-d
+packagefile net/rpc=/root/.cache/go-build/1a/1aa6f148ec04d52c28ff9dbf9fa1bfbd38105a763662237ed04d89e12ee6cb2a-d
+packagefile google.golang.org/protobuf/encoding/protowire=/root/.cache/go-build/9d/9d435ed8e4fa306619f04e4e9a2e9bf41b977fbf715cbab5a47c3415cad7f397-d
+packagefile google.golang.org/protobuf/internal/encoding/messageset=/root/.cache/go-build/af/af81c49433dbae9ca9a39dab416a44636ea2b5b362506dbccd48cbea1537de36-d
+packagefile google.golang.org/protobuf/internal/errors=/root/.cache/go-build/1a/1a63450ffbee20026910b2b228d5a9cb2a3ce66d78487c6b4882534660445c6b-d
+packagefile google.golang.org/protobuf/internal/flags=/root/.cache/go-build/ff/ff7be636d8188a990c7287856f31fe7fcf5072b93645d665074fcc663238e0b7-d
+packagefile google.golang.org/protobuf/internal/genid=/root/.cache/go-build/5b/5bbdcc1e9785a2451297e68a29517e69822c7e1378de3f053c43c556aadfa497-d
+packagefile google.golang.org/protobuf/internal/order=/root/.cache/go-build/c7/c75e8378223b4ee5f241710655d15ce36b2a630aeb815e7aa57f6642a3c7868c-d
+packagefile google.golang.org/protobuf/internal/pragma=/root/.cache/go-build/5e/5ef8cb6e5f932458e21a8fead147ff6c95af6edbebc49e7e85300b196e7623ab-d
+packagefile google.golang.org/protobuf/internal/strs=/root/.cache/go-build/6d/6de14e35c8abc29ce054025ce5ec0a66c0712bb8e2bd63a3fdbdca1ec91a2d13-d
+packagefile google.golang.org/protobuf/reflect/protoreflect=/root/.cache/go-build/dc/dc3470bb53635823c614bea40f597fb732ef68a3aad7595c6a71e8200e2c87bc-d
+packagefile google.golang.org/protobuf/reflect/protoregistry=/root/.cache/go-build/56/56fa1f93f1c8629074fba0a29f3ea113366dc881396243108b4eaaa8a09e4a76-d
+packagefile google.golang.org/protobuf/runtime/protoiface=/root/.cache/go-build/33/330c73b639e9a4b9eee26be7972f493a9db3c7ce2f65b9ccd51965d9a97f2fc4-d
+packagefile compress/flate=/root/.cache/go-build/7b/7bc2e9d5515fc0954dc22e2f63cb4e68372d582aa5058333bb4203327ef64ca1-d
+packagefile hash/crc32=/root/.cache/go-build/ae/ae43d211bb4da41cedd29008e6cc22398474a251aaba998a0074a77b2ca5b808-d
+packagefile crypto/internal/boring=/root/.cache/go-build/32/3230cc3ef6e51b406acab0e25c5457d7f4865a64ae9359232a774ebdb5c31102-d
+packagefile crypto/internal/randutil=/root/.cache/go-build/46/46ee5f748e9777bb9622cdb185be33fece3f7ec9078b69b6f9c4292752e7d0d5-d
+packagefile math/big=/root/.cache/go-build/37/37b219bb214b87998ca84cabfbbdfedd010223f615c429fca1a8608b280810e2-d
+packagefile crypto=/root/.cache/go-build/ad/ad99d2a369d4b3cf23ae7ad8f1b8967ef4ab3a82c069617771f89d2794ab82e7-d
+packagefile crypto/aes=/root/.cache/go-build/f9/f9c44503985c5ae591eff165a441b3cc4163d5f4c15f9546ac332275dedf6408-d
+packagefile crypto/cipher=/root/.cache/go-build/de/de152ca9da8c4c45cfe4f19954292f505169114813cb3f1f20d473960fabc10e-d
+packagefile crypto/des=/root/.cache/go-build/9e/9ecc3a8e69c60c596d5a5d0d352b57f3cb1e01fd92f12b534e8d1c9a07f282a4-d
+packagefile crypto/ecdh=/root/.cache/go-build/a4/a4bcc77c433fbc0dccdb1d49ac5de1fb1030690d3bea36aeb470ad275267b4ae-d
+packagefile crypto/ecdsa=/root/.cache/go-build/35/35e2ace3f48a9ab1f791171e707d1397a4b4b991b0e4be1d8c64edf7de4ca392-d
+packagefile crypto/ed25519=/root/.cache/go-build/09/09631cd176ea20d569317d9fe8924bf341f1c594f7017e321ef01d6a077837ee-d
+packagefile crypto/elliptic=/root/.cache/go-build/be/bed3a781a0f4686741275e91815ebc455ab628e390c894f79674c6250b932375-d
+packagefile crypto/hmac=/root/.cache/go-build/81/81ca21232a280456525fba42f08580721e1a4bdbfdb0223822308c6729020cbb-d
+packagefile crypto/md5=/root/.cache/go-build/71/71023200cb2005aa727d88d394985b7cd70bea160c45648e09388729bce44bb5-d
+packagefile crypto/rc4=/root/.cache/go-build/63/63640519b74ea033af5775ac621f2ca77f5e1126544bafdb71a9cab88a548de2-d
+packagefile crypto/rsa=/root/.cache/go-build/a8/a8fb7c59334d464015fb816c95b8682f0598b6c582203f37200a12cdc132b459-d
+packagefile crypto/sha1=/root/.cache/go-build/0d/0d10ffe0fe2cbde600dec3fdf7a0075c4ae92fe8f6f611f4433bdc40509e5777-d
+packagefile crypto/sha512=/root/.cache/go-build/fa/fa377992ff71a144a8f5799b4509b00adf75d694803344664bc15fb6188fd241-d
+packagefile crypto/x509=/root/.cache/go-build/07/0756e462412966e016401d2c0525956a11110913f2eb3fe17ef2e1475defbb08-d
+packagefile encoding/pem=/root/.cache/go-build/63/63c4afaa43ac000307487c67c99d3201da185baea1f008b1efbe2029a746862d-d
+packagefile vendor/golang.org/x/crypto/chacha20poly1305=/root/.cache/go-build/d4/d420759e38b4ea01bc5f45ca609f681ba91792d6d9ec28278f10890eecdaad0c-d
+packagefile vendor/golang.org/x/crypto/cryptobyte=/root/.cache/go-build/c5/c5f23730a3c0e5ffb693adf4925be1fa443cb724cb27ab8f869053c20cf9db83-d
+packagefile vendor/golang.org/x/crypto/hkdf=/root/.cache/go-build/79/79415c9143ad7b16bef9224ccadd4136a7aea83c95fe763ffcb40e048fc2eec3-d
+packagefile hash=/root/.cache/go-build/bb/bb7c3e54f7c4713b76a22692aa9759a9091d3984728601a82a6651a677748f8d-d
+packagefile golang.org/x/text/secure/bidirule=/root/.cache/go-build/17/17e41e8ced3e9e95a3e9c36fcdfa252f0bc03687a809b8d3d20449a92d97c69d-d
+packagefile golang.org/x/text/unicode/bidi=/root/.cache/go-build/1e/1e21d15cd0f0e80aca421124c02f75ed1dfd98898a7e371603e5dbf9ad4a378c-d
+packagefile golang.org/x/text/unicode/norm=/root/.cache/go-build/1e/1e75cd0bffaaf9c529d1e8b982564e18fbe1aff1e171656d79f95eda66c35f59-d
+packagefile internal/intern=/root/.cache/go-build/e8/e83001c6c3492b07444a5f9ced6959949ae3b7cbc4106318bebbb88b5a6aaf5b-d
+packagefile vendor/golang.org/x/text/secure/bidirule=/root/.cache/go-build/54/54e971b69f513acf578d78faae0257dd548b92a4d718036525a2a1df1ada4f2c-d
+packagefile vendor/golang.org/x/text/unicode/bidi=/root/.cache/go-build/ad/adf6bf232af45fe2405e9df66b0cb6cea7f2d2660e148a2a652158365b8704a3-d
+packagefile vendor/golang.org/x/text/unicode/norm=/root/.cache/go-build/52/52dd9c4ff2e0894587c75dff35e77b739c81f3762de97685b44d76eaa4bb5aa1-d
+packagefile github.com/go-playground/locales=/root/.cache/go-build/b0/b03d64975ce4b5081ee36c6846d0e954564d3ae6974e7fb85e503661442446e1-d
+packagefile golang.org/x/text/internal/language=/root/.cache/go-build/12/12733466490ea3e124da690f20652f8dfa03a88b10a7aeb4da5fe90514ac74ad-d
+packagefile golang.org/x/text/internal/language/compact=/root/.cache/go-build/0e/0e501f3d9d0e438a27155c4a2f210ef1f97ba73b9ec95dad1bdc1912984b6806-d
+packagefile encoding/gob=/root/.cache/go-build/9f/9fee51841e6a73e102ebaa4385f9d217c617ba96303f253b6ebf0f14667b2240-d
+packagefile go/token=/root/.cache/go-build/b2/b29c2c55b9bdc3e3e056aead3474de9a1d7284cc680e3e3c792639cab842e893-d
+packagefile google.golang.org/protobuf/internal/detrand=/root/.cache/go-build/88/88a41447db2d99f1ecc45bb2ffbf894fdb419b8654d9723b7d522fca14d19214-d
+packagefile crypto/internal/boring/sig=/root/.cache/go-build/c5/c5e6ac255ca13ea77e5cc59fe8beb66aa04cefe595305d02ac163ebd20f1dd62-d
+packagefile crypto/internal/alias=/root/.cache/go-build/94/94e38b6552829e69f1cb6c18037917ec6b70c45c0978d9b0bfaff071f46818af-d
+packagefile crypto/internal/edwards25519/field=/root/.cache/go-build/d8/d8215b7da0f29b562abcbfaaaee59df1db1cf9484235640fb0c40cd0e3b4ffdb-d
+packagefile crypto/internal/nistec=/root/.cache/go-build/40/40126df63f8ea1d4f766529ff2c729decc9b8c5908c3cdfd973c470fbf2b0f78-d
+packagefile crypto/internal/bigmod=/root/.cache/go-build/8a/8aa50ca3c693816e7913ad5796dd10c493eb568a4557cc3cced0d87a7e449a61-d
+packagefile crypto/internal/boring/bbig=/root/.cache/go-build/10/10663338ea1b178910ae42a9693ad4ad175f68ce46777710c8ff32664461dffc-d
+packagefile vendor/golang.org/x/crypto/cryptobyte/asn1=/root/.cache/go-build/53/535945a21d5ac12597e41ee70bd3e8763be0740dffb6df691502fd76cdb9a94f-d
+packagefile crypto/internal/edwards25519=/root/.cache/go-build/f7/f784d7e8b7f5a28e0ee3d9569c2124a21fa52d7a09e74a85a0f653ee0cbd084f-d
+packagefile crypto/dsa=/root/.cache/go-build/62/62f820f380aa2097553a8ac86b6948868c8c7c36253a733f60364d0801e7e8a1-d
+packagefile crypto/x509/pkix=/root/.cache/go-build/4a/4a003c8394bab7fd9e4cbf22ec3d1eaae0f9d2e3d89ccf0402581f5d67968f0d-d
+packagefile encoding/asn1=/root/.cache/go-build/92/928834f08c79cc89029aaa571a1247cfef2aaece52a6bc76fdfb70daf48b2eb5-d
+packagefile vendor/golang.org/x/crypto/chacha20=/root/.cache/go-build/03/030f5c9641f02c1314e1390c01e88d5fe758357922772b056879445ac04681f8-d
+packagefile vendor/golang.org/x/crypto/internal/alias=/root/.cache/go-build/45/45673b08ce52a6aaeaf4606c6edb41eece4a78b75be339800c780b140d993c5b-d
+packagefile vendor/golang.org/x/crypto/internal/poly1305=/root/.cache/go-build/66/6691befb6370112daec705799fe62f6d98212d8464abfe05977c95e1b4a2e667-d
+packagefile vendor/golang.org/x/sys/cpu=/root/.cache/go-build/d4/d45010e63c0bb26c54bc838d30cb1a05cbeabfd66c82830cd34619164a242422-d
+packagefile golang.org/x/text/transform=/root/.cache/go-build/a5/a5c40f7b099a18580b2f0b898ea6ceb9ec61eb74344d58808fc128032c93be09-d
+packagefile vendor/golang.org/x/text/transform=/root/.cache/go-build/5f/5f59f099df34c7a8ad74d886786fd228fa432c161ac14d435e811319755d9c62-d
+packagefile github.com/go-playground/locales/currency=/root/.cache/go-build/94/947373447fb8060883db78d66dde5771912774c657f9a25a0661412b27bf6d14-d
+packagefile golang.org/x/text/internal/tag=/root/.cache/go-build/c1/c1fa4b53cb606a506782a5d8629f0d9c905891e9802bab2a2c5101a88544092d-d
+packagefile internal/saferio=/root/.cache/go-build/92/92b95335a72fabddedc7cb7f3854b53a8cfb987cce0609880cb267768161dc55-d
+packagefile hash/fnv=/root/.cache/go-build/a9/a9c5f22b47aaa3c7818020483e9dc98b4ecd110970e56a03729ad28bc9482533-d
+packagefile crypto/internal/nistec/fiat=/root/.cache/go-build/72/72948a4298f0ba409daefadc35db309ea341c1157daa5acbd9aa98fcc908fa70-d
+packagefile embed=/root/.cache/go-build/84/84ae1739ce9d5fcd3dd8064f5881ec018b857bc53622da91abc8614ee01716ea-d
+modinfo "0w\xaf\f\x92t\b\x02A\xe1\xc1\a\xe6\xd6\x18\xe6path\tcommand-line-arguments\ndep\tFaceRecognition\t(devel)\t\ndep\tgithub.com/Kagami/go-face\tv0.0.0-20210630145111-0c14797b4d0e\th1:lqIUFzxaqyYqUn4MhzAvSAh4wIte/iLNcIEWxpT/qbc=\ndep\tgithub.com/gin-contrib/sse\tv0.1.0\th1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE=\ndep\tgithub.com/gin-gonic/gin\tv1.9.0\th1:OjyFBKICoexlu99ctXNR2gg+c5pKrKMuyjgARg9qeY8=\ndep\tgithub.com/go-playground/locales\tv0.14.1\th1:EWaQ/wswjilfKLTECiXz7Rh+3BjFhfDFKv/oXslEjJA=\ndep\tgithub.com/go-playground/universal-translator\tv0.18.1\th1:Bcnm0ZwsGyWbCzImXv+pAJnYK9S473LQFuzCbDbfSFY=\ndep\tgithub.com/go-playground/validator/v10\tv10.11.2\th1:q3SHpufmypg+erIExEKUmsgmhDTyhcJ38oeKGACXohU=\ndep\tgithub.com/leodido/go-urn\tv1.2.1\th1:BqpAaACuzVSgi/VLzGZIobT2z4v53pjosyNd9Yv6n/w=\ndep\tgithub.com/mattn/go-isatty\tv0.0.17\th1:BTarxUcIeDqL27Mc+vyvdWYSL28zpIhv3RoTdsLMPng=\ndep\tgithub.com/pelletier/go-toml/v2\tv2.0.6\th1:nrzqCb7j9cDFj2coyLNLaZuJTLjWjlaz6nvTvIwycIU=\ndep\tgithub.com/ugorji/go/codec\tv1.2.9\th1:rmenucSohSTiyL09Y+l2OCk+FrMxGMzho2+tjr5ticU=\ndep\tgolang.org/x/crypto\tv0.5.0\th1:U/0M97KRkSFvyD/3FSmdP5W5swImpNgle/EHFhOsQPE=\ndep\tgolang.org/x/net\tv0.7.0\th1:rJrUqqhjsgNp7KqAIc25s9pZnjU7TUcSY7HcVZjdn1g=\ndep\tgolang.org/x/sys\tv0.5.0\th1:MUK/U/4lj1t1oPg0HfuXDN/Z1wv31ZJ/YcPiGccS4DU=\ndep\tgolang.org/x/text\tv0.7.0\th1:4BRB4x83lYWy72KwLD/qYDuTu7q9PjSagHvijDw7cLo=\ndep\tgoogle.golang.org/protobuf\tv1.28.1\th1:d0NfwRgPtno5B1Wa6L2DAG+KivqkdutMf1UhdNx175w=\ndep\tgopkg.in/yaml.v3\tv3.0.1\th1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=\nbuild\t-buildmode=exe\nbuild\t-compiler=gc\nbuild\t-ldflags=\"-w -s\"\nbuild\tCGO_ENABLED=1\nbuild\tCGO_CFLAGS=\nbuild\tCGO_CPPFLAGS=\nbuild\tCGO_CXXFLAGS=\nbuild\tCGO_LDFLAGS=\nbuild\tGOARCH=amd64\nbuild\tGOOS=linux\nbuild\tGOAMD64=v1\n\xf92C1\x86\x18 r\x00\x82B\x10A\x16\xd8\xf2"
+EOF
+mkdir -p $WORK/b001/exe/
+cd .
+/usr/local/go/pkg/tool/linux_amd64/link -o $WORK/b001/exe/a.out -importcfg $WORK/b001/importcfg.link -buildmode=exe -buildid=yQrzPBUYW32xexW7AG82/E5RlejCE0hskaJqWDdh5/Z5Xa13be2f0hlEFwsgqu/yQrzPBUYW32xexW7AG82 -w -s -extld=g++ $WORK/b001/_pkg_.a
+/usr/local/go/pkg/tool/linux_amd64/buildid -w $WORK/b001/exe/a.out # internal
+mv $WORK/b001/exe/a.out faceserver
+rm -r $WORK/b001/
+WORK=/tmp/go-build1111250823
+command-line-arguments
+mkdir -p $WORK/b001/
+cat >/tmp/go-build1111250823/b001/importcfg << 'EOF' # internal
+# import config
+packagefile FaceRecognition/controllers=/root/.cache/go-build/f2/f28901f4e2e7ace0668437935c7be2a5c47ea3fab7e0ed2f12207ea7730bbc10-d
+packagefile fmt=/root/.cache/go-build/cf/cff345f70671e508776e8b231b79e372c4676ffe417a1a3806c5caf95e9bd7cf-d
+packagefile github.com/Kagami/go-face=/root/.cache/go-build/84/8401127f7cb09bda46e8c3873af4a6268c61abcc3f7c3148b1ca243a07a06032-d
+packagefile github.com/gin-gonic/gin=/root/.cache/go-build/4e/4e23ced3883b672d925de44c31384ec17908bb3730a3fe5ee58ee546cc3c6d3d-d
+packagefile path/filepath=/root/.cache/go-build/b6/b6b2fd5d9734839cd70067309a808dc4016208d4d5306cce861849e4b99d9e1a-d
+packagefile runtime=/root/.cache/go-build/f5/f5eae97d918371c7c83fe2a88e9dbb2fec09960c36aeb1d26b1c2f09d89305f9-d
+EOF
+cd /home/FaceRecognition/server
+/usr/local/go/pkg/tool/linux_amd64/compile -o $WORK/b001/_pkg_.a -trimpath "$WORK/b001=>" -p main -complete -buildid yNkqaHQxT-h8-6V5Logq/yNkqaHQxT-h8-6V5Logq -goversion go1.20.4 -nolocalimports -importcfg $WORK/b001/importcfg -pack ./server.go
+/usr/local/go/pkg/tool/linux_amd64/buildid -w $WORK/b001/_pkg_.a # internal
+cp $WORK/b001/_pkg_.a /root/.cache/go-build/3b/3b5339cb8fef6bb58e81b2ab13010d6f7c95545fcce49e1083d2b08e43564532-d # internal
+cat >/tmp/go-build1111250823/b001/importcfg.link << 'EOF' # internal
+packagefile command-line-arguments=/tmp/go-build1111250823/b001/_pkg_.a
+packagefile FaceRecognition/controllers=/root/.cache/go-build/f2/f28901f4e2e7ace0668437935c7be2a5c47ea3fab7e0ed2f12207ea7730bbc10-d
+packagefile fmt=/root/.cache/go-build/cf/cff345f70671e508776e8b231b79e372c4676ffe417a1a3806c5caf95e9bd7cf-d
+packagefile github.com/Kagami/go-face=/root/.cache/go-build/84/8401127f7cb09bda46e8c3873af4a6268c61abcc3f7c3148b1ca243a07a06032-d
+packagefile github.com/gin-gonic/gin=/root/.cache/go-build/4e/4e23ced3883b672d925de44c31384ec17908bb3730a3fe5ee58ee546cc3c6d3d-d
+packagefile path/filepath=/root/.cache/go-build/b6/b6b2fd5d9734839cd70067309a808dc4016208d4d5306cce861849e4b99d9e1a-d
+packagefile runtime=/root/.cache/go-build/f5/f5eae97d918371c7c83fe2a88e9dbb2fec09960c36aeb1d26b1c2f09d89305f9-d
+packagefile FaceRecognition/models=/root/.cache/go-build/32/321dd38f8f25217693d3323d1f7a3103d1946943fadb62721d7245c4ca987ace-d
+packagefile sync=/root/.cache/go-build/8c/8ca5cd7b10f028bde0add0570182855542c74dd7b0f3f185d05d55cfb2761225-d
+packagefile errors=/root/.cache/go-build/c3/c3ca51b3dbf02d375ed334068291399ab9045e70f116b083e81befc8b32073f9-d
+packagefile internal/fmtsort=/root/.cache/go-build/60/60db98208e085d1cb81f8849168369dd6dffaa75a2a8817537ff9840e544def8-d
+packagefile io=/root/.cache/go-build/3f/3f47dbb23d8a725a8add0ccee53d305b53d47438adf59f282afb4e58c957e946-d
+packagefile math=/root/.cache/go-build/90/90e33f0d8f79c7585c1559728930cf6936e8721a38d6c2b25ab179c8cce393d3-d
+packagefile os=/root/.cache/go-build/9f/9f4f9105c37b2865b130bc5f783edf18bd1066b6d71eee53c8f53f2da3e87710-d
+packagefile reflect=/root/.cache/go-build/d5/d5fd69d99da4bee5f1ec02b332f5f903af8e9e36df61950ce58553ec3f55b3a3-d
+packagefile sort=/root/.cache/go-build/15/15c97b460afc045139634ffdd726154b4fce1651774ecd3a8a04434096da3516-d
+packagefile strconv=/root/.cache/go-build/1a/1ad0a4bf26d6a401443abecef2c0d58a39aa53cee9a04b799ed3b380005d7b6a-d
+packagefile unicode/utf8=/root/.cache/go-build/3f/3f60081ee412ab78743d2744ee4e8db7b1a927b3480e8a0d74f175a6da78f2b4-d
+packagefile image=/root/.cache/go-build/fd/fdd169615b49730fd854e7f7e552706dc0834c287b2f9527182948edbc055a60-d
+packagefile io/ioutil=/root/.cache/go-build/bb/bb5496659f5ff1573d07baf8d1ed0d862ec90d1fad178f74284f0680f5b16808-d
+packagefile runtime/cgo=/root/.cache/go-build/6f/6f539074954a6b94577cf9537eccbb057b6f2ac1ee8a4661e872d1c9cca52951-d
+packagefile syscall=/root/.cache/go-build/90/90c34d05dac34b8a71d3fe8c56629372bbf8c526cb99cd62209ee723971848f7-d
+packagefile bufio=/root/.cache/go-build/93/9393d16472ea52ccc319e031485e92daccac29f662f8b13209c70aa5818ad08f-d
+packagefile bytes=/root/.cache/go-build/fd/fdcc7969c2d93c39fde4a427f3562da5d5d0e6b2accc974a930c1456c0dcd9db-d
+packagefile crypto/subtle=/root/.cache/go-build/05/05c934257aa5fcd550098c80cf708f7f2da79f744e1fb8b166484ff9c7730177-d
+packagefile encoding/base64=/root/.cache/go-build/90/90ec4181a06fd621bd1a2074038167a409109aac4358c27ed2d2c6adbf33cdd2-d
+packagefile encoding/xml=/root/.cache/go-build/63/637206d5ca29733a05eae34c03f1b3975d666b1662d89bc41eab9a78fd6030ca-d
+packagefile flag=/root/.cache/go-build/f8/f8eaf32a5bdcb55a8cf3ade5d88bf9b9067696a152ab75f34912c5c934bbd3d1-d
+packagefile github.com/gin-contrib/sse=/root/.cache/go-build/c8/c89b2448e126cb2972ebb382f27e5b7ddc475c07c937d1729dc39fb59a21d716-d
+packagefile github.com/gin-gonic/gin/binding=/root/.cache/go-build/bc/bcc60d1aa15458ea7dcedf14e31b4fb2771f5a1c326d3cab7cc1e54b42d1633c-d
+packagefile github.com/gin-gonic/gin/internal/bytesconv=/root/.cache/go-build/04/045d61b00384b2e98ed9b5b5887a1aa759f12496feabfeb7c0ece4ae7b5404f1-d
+packagefile github.com/gin-gonic/gin/internal/json=/root/.cache/go-build/ac/ac73bdd2dfc9caf4ecee9031f843e4b0149820e424955736faca750e74934605-d
+packagefile github.com/gin-gonic/gin/render=/root/.cache/go-build/bd/bd3757935b9f686687ff40693fb5b27392f7429d65dc9cb2c602ba94bed2ac72-d
+packagefile github.com/mattn/go-isatty=/root/.cache/go-build/9e/9e0a66af7d3aa6065f095f16f7c6fae50eff415e7d58edf4609365c95d0a4ca3-d
+packagefile golang.org/x/net/http2=/root/.cache/go-build/43/432c7f77ce8b8af7b02dd5d9ec467a87e99bdbe4b287ed43d77eb2abe0d30215-d
+packagefile golang.org/x/net/http2/h2c=/root/.cache/go-build/ca/ca5a5fdc89ae9cd26b077920045b6d42136bdeea6ea4b056e35da3b106294d08-d
+packagefile html/template=/root/.cache/go-build/6c/6ceb3806b91bc12be7f0a28cbfcfa5ef34170c396440577ee44f5eb274d69d5c-d
+packagefile log=/root/.cache/go-build/86/8645e33b0f15e0a03a3e7bd9fd8682e78aadef74921c67f1352d79bbd2f63f9f-d
+packagefile mime/multipart=/root/.cache/go-build/35/354cc14078f6892e6298388f6065e0387ebd42115e8ae11c48e60be8c4c7983e-d
+packagefile net=/root/.cache/go-build/7f/7f8c42b7197ab6e9ef7fd21b99660e17ec462550441b6021a10eef30fc9c8ba0-d
+packagefile net/http=/root/.cache/go-build/eb/eb6665bdaae4cc2e0f343fde44e18802edf310e5b2967852eae6be98a363b092-d
+packagefile net/http/httputil=/root/.cache/go-build/cf/cf94e07b8960cc1ade1a05e99de049d480f533fad4e7984510f45f14fa72b14e-d
+packagefile net/url=/root/.cache/go-build/5b/5b4e4cb863ab41eece805421e1f0431bd6ffa233625de667febd4643d754b6b3-d
+packagefile path=/root/.cache/go-build/e3/e3566d6415cf10d62a5e496f409fab9922ec7c27417ea8ce5fe5a5a331f9b7f5-d
+packagefile regexp=/root/.cache/go-build/ca/ca646976311d4223ca5e303bc2c859b9ed30204034e68c31ea2e878ea5d02d9a-d
+packagefile strings=/root/.cache/go-build/b5/b5359915b131fbf0ca93f87aec653e012cb67eb7eff34c14902099a137c7fd10-d
+packagefile time=/root/.cache/go-build/2d/2d930289955ec68431cef7e8d9bb7b5b2d6dccd93e45f68f63868cf7045146af-d
+packagefile unicode=/root/.cache/go-build/30/308aea17052e8d51adf8f3285ffddca41cb8097847ac43ecee40818df8954816-d
+packagefile io/fs=/root/.cache/go-build/2c/2c2609c66a19a399f3dab8b33bd4da54655aefd1e62414acfe3fe7ffda6e7770-d
+packagefile internal/abi=/root/.cache/go-build/97/97e46b4de6600d66a48c41890d9b418b13b20b22bb9116831e53bb277d3cc219-d
+packagefile internal/bytealg=/root/.cache/go-build/3d/3d8c80401513467afb4c0ae8bfb06d098f84d53f83c67e867a73d5a9bd52c621-d
+packagefile internal/coverage/rtcov=/root/.cache/go-build/92/926df4eb753eaf2114a466757f34e7afdfba1cf6ec04f1f2f34c85063d90e024-d
+packagefile internal/cpu=/root/.cache/go-build/06/0621a8c86a0f8a0475a63e05793305315e8701bc4b5d35227f39367f20a85bf7-d
+packagefile internal/goarch=/root/.cache/go-build/46/466361bf073f0514935abe900921ffaa557283dbec238ae7b237bf94e134e05e-d
+packagefile internal/goexperiment=/root/.cache/go-build/8d/8de78bf1ef63a81cea0842fb8c763a9242c3cb58755f22415c152ba39d813fbf-d
+packagefile internal/goos=/root/.cache/go-build/fc/fc2639e7d82ded59f6db84cb817dd44e79b4ce07bf385d940b6a585ea2251d8d-d
+packagefile runtime/internal/atomic=/root/.cache/go-build/9b/9b27352913aac753062d263539a28267204689b4f2b07b08874edc157621a704-d
+packagefile runtime/internal/math=/root/.cache/go-build/9f/9fdba1d4b52db1d9a6b1ef33709218afb9736e725ac2ed5b2d67732092133118-d
+packagefile runtime/internal/sys=/root/.cache/go-build/89/894fd9e5b3ec676bfc6db7792d9a73a660cab83b1469ee8b0ec1c7ab471453f3-d
+packagefile runtime/internal/syscall=/root/.cache/go-build/1d/1d8e21f62bbc5b5ae39b82f62d2103f987588ed752533b349b007897e395d080-d
+packagefile internal/race=/root/.cache/go-build/8d/8d8748d628c00b0e17ec37c3b489e3f71aa648f54ebd42850107185a25c9c5d0-d
+packagefile sync/atomic=/root/.cache/go-build/60/607d046547a61f90e414bc462b44559534605a2b3331d30e80987de78eccec02-d
+packagefile internal/reflectlite=/root/.cache/go-build/68/68e93efe874f570ec44808ba740ec9e7f85ae99517fc1aa4d7d47a25f1ba0dd5-d
+packagefile math/bits=/root/.cache/go-build/8a/8a8af225f53e3267a0e84e9236afd493febe04b00f6a1ebca9a385425ec5eb8b-d
+packagefile internal/itoa=/root/.cache/go-build/bf/bf12a0a0c4af776c027cff856238e7151c065ea070c1d8648374631c254efca2-d
+packagefile internal/poll=/root/.cache/go-build/8a/8a23e35e436231c957d53722575f693b9876e4444db8b34bddfa4b3af0d1a960-d
+packagefile internal/safefilepath=/root/.cache/go-build/7f/7f19737cdc4b7a80fe6c79a5773771840937e0649edced18bda637085f3eb5a7-d
+packagefile internal/syscall/execenv=/root/.cache/go-build/5a/5a5ad223fd7e129835d0f9a6c6ccecc70c2b50f40b78a6d4d20b06fafd51821b-d
+packagefile internal/syscall/unix=/root/.cache/go-build/42/426f444477d471f5cd570f0597420b970c802a8fbf1ca0ad38ac3b30f8bc3f0a-d
+packagefile internal/testlog=/root/.cache/go-build/cd/cde97acef886e8f87e5610349ed4489b23a91ea2a610ba3fc6155f73d540d8a1-d
+packagefile internal/unsafeheader=/root/.cache/go-build/c5/c5b46fe40f7e8de2493764975e120119586accdba6937c78b1d5361bf99bc5b9-d
+packagefile image/color=/root/.cache/go-build/9b/9b1f2cb666db199ff74854ce410656e04f9e3a351be9759d27f70f1403ab082d-d
+packagefile internal/oserror=/root/.cache/go-build/6b/6bfc832c097aa830784db2380ca2fbeb0c5bbe680d0ce64ceda4afd925e21407-d
+packagefile encoding/binary=/root/.cache/go-build/d6/d69a5bd97676a2805cdc0da7d5a8bd7bd0ac474ac6a1313b0b6a60d37786a966-d
+packagefile encoding=/root/.cache/go-build/3c/3c6a2df8b9437e6a6b26d6b2d43b26ac37e8128f439a914fd20b15f1a42a5890-d
+packagefile encoding/json=/root/.cache/go-build/1e/1e9b8665bbed29bf29ca8faf9c737e23b4fd6aac3e3908218d255d680edbeeb5-d
+packagefile github.com/go-playground/validator/v10=/root/.cache/go-build/77/77532ef1741aa42a74dad2ef76dc8b04fcc9784969f8ad72e22caa13d731eff9-d
+packagefile github.com/pelletier/go-toml/v2=/root/.cache/go-build/f1/f1717e7cfc6349163d22f845c5bbebb06396ddc34eb0792761bfdcddee077880-d
+packagefile github.com/ugorji/go/codec=/root/.cache/go-build/49/4944c89c43fd84f8eeb4ecb6ed6f8e7b61f0ab2308b5a332d4d47b017014736e-d
+packagefile google.golang.org/protobuf/proto=/root/.cache/go-build/ce/ce0625858a608a68a0f13d3c1260fd878b5ff5546fcca5174b43784109e1285c-d
+packagefile gopkg.in/yaml.v3=/root/.cache/go-build/12/1224be271c2bb102ebc3427d3dccafed25ae258f964b6355daa318aee758418a-d
+packagefile net/textproto=/root/.cache/go-build/a3/a3127c12a2764978f30cf76d84efbf587f5f4cd8c161032f235320fd1b206aa7-d
+packagefile golang.org/x/sys/unix=/root/.cache/go-build/cd/cd5bf935ade8d2127ee9b5ee6d469185b0642d31adbad433f144543693ec2678-d
+packagefile compress/gzip=/root/.cache/go-build/36/367db2c6ab9783147082c6de4c536bd67db82c077aed4b101feb5592484905ab-d
+packagefile context=/root/.cache/go-build/29/2977fea3cae8a45a208ce6e9949e7d910e881c89ddc4621b7e563820d617ca95-d
+packagefile crypto/rand=/root/.cache/go-build/23/237d675fe5179ba231ffd609ba7ebeac3d5dede331c7ae307598cd87f618c4be-d
+packagefile crypto/tls=/root/.cache/go-build/c9/c90372bf7d5402fbde8c41710246ab429147607204b946b3a1499932b597bf46-d
+packagefile golang.org/x/net/http/httpguts=/root/.cache/go-build/b8/b8dae3f23ac4d01df186390618e2dc008333f41fb3bd37916fb02ddd90c86974-d
+packagefile golang.org/x/net/http2/hpack=/root/.cache/go-build/10/10a9903c3e81bda06edb1460190d1ae3a844d6233d0e7299df09d6490e495a6b-d
+packagefile golang.org/x/net/idna=/root/.cache/go-build/19/19b57f6a7157b54672f30de884a168e708db13c7eab362f376845607d7b4bd3b-d
+packagefile math/rand=/root/.cache/go-build/b9/b99649e131c26491e3f160aaf06f74b6fe822c01b2c227ae0432d35d5989c344-d
+packagefile net/http/httptrace=/root/.cache/go-build/02/02f737f246b04d4e7362ac14b0e53b50ca7761493a79cf0d3b0e20d6f3325e84-d
+packagefile html=/root/.cache/go-build/4a/4ae21bae38677c8f3eeabacb54de631b72582465caa4a7266dbe7fe7c83a43fc-d
+packagefile internal/godebug=/root/.cache/go-build/47/472140403d3c36ea97e813b868242563f14506ffac27b6508bab2867b0dc8747-d
+packagefile text/template=/root/.cache/go-build/87/873d57daeec5b875f0a3f1e0e65791cb103d098d3323ced1555ae619ca342a22-d
+packagefile text/template/parse=/root/.cache/go-build/0e/0e9951506cd3c14f3594d47cb873b0a85448e1f1a02e611ec3b860aaf7d3e4ca-d
+packagefile mime=/root/.cache/go-build/a3/a3e97788e2bb7afd9908e56af76ee7302e6060191708f80ca822a9a3034d1da3-d
+packagefile mime/quotedprintable=/root/.cache/go-build/99/9993c93959a8c7a7477cf535e853ff9811f2e928850c3c63917b801222aca593-d
+packagefile vendor/golang.org/x/net/dns/dnsmessage=/root/.cache/go-build/6d/6d38f028585d57e6a6c1a8b72437a240973573649f0e54f2562dbe523a39b224-d
+packagefile internal/nettrace=/root/.cache/go-build/03/03f5b3287c603355d794cf221c08f8aac70a092fa78cba7a69a637740d4101fc-d
+packagefile internal/singleflight=/root/.cache/go-build/0d/0d697d1e203ed74455c17f2f5dd974635df61256710951e5c62eb455a5986808-d
+packagefile net/netip=/root/.cache/go-build/f3/f3ae181707b42ed0b23034432b3158e10be442df2ce054c491c53b9658a4acf5-d
+packagefile container/list=/root/.cache/go-build/a4/a4c9dc29196d109e02100894cf20b48a56088f4a28d6b66fb06aebd71652c023-d
+packagefile vendor/golang.org/x/net/http/httpguts=/root/.cache/go-build/ca/cab62b318c5dd95dff6254f676382831b1752dda3464dadf772b0ce666a80e90-d
+packagefile vendor/golang.org/x/net/http/httpproxy=/root/.cache/go-build/67/6795c8fdd0f3fde0be3d1a51c1d865074e75723304c659f757b1d09bb49849a7-d
+packagefile vendor/golang.org/x/net/http2/hpack=/root/.cache/go-build/9a/9a291b1174ca9fb3f3551a4b6eaf2c1a8e4f924a3e046558745b373428949ba6-d
+packagefile vendor/golang.org/x/net/idna=/root/.cache/go-build/d3/d3f29dd76244f99e27853c7289e6e7850833f99edc43f28f94fa0e9df9e0a496-d
+packagefile net/http/internal=/root/.cache/go-build/ca/ca03d5ced964791d319d6b880bcc24f704f3bc4d9bccb6a2e58ead7d26f63973-d
+packagefile net/http/internal/ascii=/root/.cache/go-build/95/958464213dddc6bd7be28ee2c6dfd775c078f1c3caad94c60bf332a0525e9b18-d
+packagefile regexp/syntax=/root/.cache/go-build/86/860bebf10ba9874e406a5fe40cc859b763ab4be80d558a635fea6fa5fcaf2bf5-d
+packagefile unicode/utf16=/root/.cache/go-build/b2/b2dbc741d5a9c1d9b0d40be6d90b9169351798477a1f721c942d70f23f64eb92-d
+packagefile crypto/sha256=/root/.cache/go-build/fa/fa38c099fedccf488d3b4fa6221679e5eb0ab049502d6c6a34e8caf3df582b1f-d
+packagefile encoding/hex=/root/.cache/go-build/6e/6e20bba0051a85fdaa9e84b47a77d1abb3637df7fba652a368ca5c5fd2a40b13-d
+packagefile github.com/go-playground/universal-translator=/root/.cache/go-build/0d/0d096deb76c236138aaec460ac6ed62796c27b9e36c5b3fca6376d172d186d1a-d
+packagefile github.com/leodido/go-urn=/root/.cache/go-build/74/7439781336fcc0c16e747cb3924551e661355fa6874c4ca852c66cfd911a0c54-d
+packagefile golang.org/x/crypto/sha3=/root/.cache/go-build/ac/ac4324778b9fa1add82e5ac7fc5eb8b9dbb79192a1f3f38117b21d9f03d07ca6-d
+packagefile golang.org/x/text/language=/root/.cache/go-build/06/06d53021f07bc2d99cae8b1e3a3cbd85c83a0cf7a42f6559fa40576056f19c9d-d
+packagefile github.com/pelletier/go-toml/v2/internal/characters=/root/.cache/go-build/fa/fac2cd15845952f869acb2c6873499999c2a8ff019e3735b719e4ebbc2a5ee89-d
+packagefile github.com/pelletier/go-toml/v2/internal/danger=/root/.cache/go-build/7a/7a4357f5b5b36c9a751d42aabef431ca609efdc4edce00af780fe0316942b6f7-d
+packagefile github.com/pelletier/go-toml/v2/internal/tracker=/root/.cache/go-build/d5/d5f7d48069ebd5066885318f2f8c1105b274080fafe9e7a347e2159d0a440cf9-d
+packagefile github.com/pelletier/go-toml/v2/unstable=/root/.cache/go-build/41/4156623f3730116faf587a4788ce13f48fbcfd8cbbdd37a5a0040d0e46538cc3-d
+packagefile net/rpc=/root/.cache/go-build/1a/1aa6f148ec04d52c28ff9dbf9fa1bfbd38105a763662237ed04d89e12ee6cb2a-d
+packagefile google.golang.org/protobuf/encoding/protowire=/root/.cache/go-build/9d/9d435ed8e4fa306619f04e4e9a2e9bf41b977fbf715cbab5a47c3415cad7f397-d
+packagefile google.golang.org/protobuf/internal/encoding/messageset=/root/.cache/go-build/af/af81c49433dbae9ca9a39dab416a44636ea2b5b362506dbccd48cbea1537de36-d
+packagefile google.golang.org/protobuf/internal/errors=/root/.cache/go-build/1a/1a63450ffbee20026910b2b228d5a9cb2a3ce66d78487c6b4882534660445c6b-d
+packagefile google.golang.org/protobuf/internal/flags=/root/.cache/go-build/ff/ff7be636d8188a990c7287856f31fe7fcf5072b93645d665074fcc663238e0b7-d
+packagefile google.golang.org/protobuf/internal/genid=/root/.cache/go-build/5b/5bbdcc1e9785a2451297e68a29517e69822c7e1378de3f053c43c556aadfa497-d
+packagefile google.golang.org/protobuf/internal/order=/root/.cache/go-build/c7/c75e8378223b4ee5f241710655d15ce36b2a630aeb815e7aa57f6642a3c7868c-d
+packagefile google.golang.org/protobuf/internal/pragma=/root/.cache/go-build/5e/5ef8cb6e5f932458e21a8fead147ff6c95af6edbebc49e7e85300b196e7623ab-d
+packagefile google.golang.org/protobuf/internal/strs=/root/.cache/go-build/6d/6de14e35c8abc29ce054025ce5ec0a66c0712bb8e2bd63a3fdbdca1ec91a2d13-d
+packagefile google.golang.org/protobuf/reflect/protoreflect=/root/.cache/go-build/dc/dc3470bb53635823c614bea40f597fb732ef68a3aad7595c6a71e8200e2c87bc-d
+packagefile google.golang.org/protobuf/reflect/protoregistry=/root/.cache/go-build/56/56fa1f93f1c8629074fba0a29f3ea113366dc881396243108b4eaaa8a09e4a76-d
+packagefile google.golang.org/protobuf/runtime/protoiface=/root/.cache/go-build/33/330c73b639e9a4b9eee26be7972f493a9db3c7ce2f65b9ccd51965d9a97f2fc4-d
+packagefile compress/flate=/root/.cache/go-build/7b/7bc2e9d5515fc0954dc22e2f63cb4e68372d582aa5058333bb4203327ef64ca1-d
+packagefile hash/crc32=/root/.cache/go-build/ae/ae43d211bb4da41cedd29008e6cc22398474a251aaba998a0074a77b2ca5b808-d
+packagefile crypto/internal/boring=/root/.cache/go-build/32/3230cc3ef6e51b406acab0e25c5457d7f4865a64ae9359232a774ebdb5c31102-d
+packagefile crypto/internal/randutil=/root/.cache/go-build/46/46ee5f748e9777bb9622cdb185be33fece3f7ec9078b69b6f9c4292752e7d0d5-d
+packagefile math/big=/root/.cache/go-build/37/37b219bb214b87998ca84cabfbbdfedd010223f615c429fca1a8608b280810e2-d
+packagefile crypto=/root/.cache/go-build/ad/ad99d2a369d4b3cf23ae7ad8f1b8967ef4ab3a82c069617771f89d2794ab82e7-d
+packagefile crypto/aes=/root/.cache/go-build/f9/f9c44503985c5ae591eff165a441b3cc4163d5f4c15f9546ac332275dedf6408-d
+packagefile crypto/cipher=/root/.cache/go-build/de/de152ca9da8c4c45cfe4f19954292f505169114813cb3f1f20d473960fabc10e-d
+packagefile crypto/des=/root/.cache/go-build/9e/9ecc3a8e69c60c596d5a5d0d352b57f3cb1e01fd92f12b534e8d1c9a07f282a4-d
+packagefile crypto/ecdh=/root/.cache/go-build/a4/a4bcc77c433fbc0dccdb1d49ac5de1fb1030690d3bea36aeb470ad275267b4ae-d
+packagefile crypto/ecdsa=/root/.cache/go-build/35/35e2ace3f48a9ab1f791171e707d1397a4b4b991b0e4be1d8c64edf7de4ca392-d
+packagefile crypto/ed25519=/root/.cache/go-build/09/09631cd176ea20d569317d9fe8924bf341f1c594f7017e321ef01d6a077837ee-d
+packagefile crypto/elliptic=/root/.cache/go-build/be/bed3a781a0f4686741275e91815ebc455ab628e390c894f79674c6250b932375-d
+packagefile crypto/hmac=/root/.cache/go-build/81/81ca21232a280456525fba42f08580721e1a4bdbfdb0223822308c6729020cbb-d
+packagefile crypto/md5=/root/.cache/go-build/71/71023200cb2005aa727d88d394985b7cd70bea160c45648e09388729bce44bb5-d
+packagefile crypto/rc4=/root/.cache/go-build/63/63640519b74ea033af5775ac621f2ca77f5e1126544bafdb71a9cab88a548de2-d
+packagefile crypto/rsa=/root/.cache/go-build/a8/a8fb7c59334d464015fb816c95b8682f0598b6c582203f37200a12cdc132b459-d
+packagefile crypto/sha1=/root/.cache/go-build/0d/0d10ffe0fe2cbde600dec3fdf7a0075c4ae92fe8f6f611f4433bdc40509e5777-d
+packagefile crypto/sha512=/root/.cache/go-build/fa/fa377992ff71a144a8f5799b4509b00adf75d694803344664bc15fb6188fd241-d
+packagefile crypto/x509=/root/.cache/go-build/07/0756e462412966e016401d2c0525956a11110913f2eb3fe17ef2e1475defbb08-d
+packagefile encoding/pem=/root/.cache/go-build/63/63c4afaa43ac000307487c67c99d3201da185baea1f008b1efbe2029a746862d-d
+packagefile vendor/golang.org/x/crypto/chacha20poly1305=/root/.cache/go-build/d4/d420759e38b4ea01bc5f45ca609f681ba91792d6d9ec28278f10890eecdaad0c-d
+packagefile vendor/golang.org/x/crypto/cryptobyte=/root/.cache/go-build/c5/c5f23730a3c0e5ffb693adf4925be1fa443cb724cb27ab8f869053c20cf9db83-d
+packagefile vendor/golang.org/x/crypto/hkdf=/root/.cache/go-build/79/79415c9143ad7b16bef9224ccadd4136a7aea83c95fe763ffcb40e048fc2eec3-d
+packagefile hash=/root/.cache/go-build/bb/bb7c3e54f7c4713b76a22692aa9759a9091d3984728601a82a6651a677748f8d-d
+packagefile golang.org/x/text/secure/bidirule=/root/.cache/go-build/17/17e41e8ced3e9e95a3e9c36fcdfa252f0bc03687a809b8d3d20449a92d97c69d-d
+packagefile golang.org/x/text/unicode/bidi=/root/.cache/go-build/1e/1e21d15cd0f0e80aca421124c02f75ed1dfd98898a7e371603e5dbf9ad4a378c-d
+packagefile golang.org/x/text/unicode/norm=/root/.cache/go-build/1e/1e75cd0bffaaf9c529d1e8b982564e18fbe1aff1e171656d79f95eda66c35f59-d
+packagefile internal/intern=/root/.cache/go-build/e8/e83001c6c3492b07444a5f9ced6959949ae3b7cbc4106318bebbb88b5a6aaf5b-d
+packagefile vendor/golang.org/x/text/secure/bidirule=/root/.cache/go-build/54/54e971b69f513acf578d78faae0257dd548b92a4d718036525a2a1df1ada4f2c-d
+packagefile vendor/golang.org/x/text/unicode/bidi=/root/.cache/go-build/ad/adf6bf232af45fe2405e9df66b0cb6cea7f2d2660e148a2a652158365b8704a3-d
+packagefile vendor/golang.org/x/text/unicode/norm=/root/.cache/go-build/52/52dd9c4ff2e0894587c75dff35e77b739c81f3762de97685b44d76eaa4bb5aa1-d
+packagefile github.com/go-playground/locales=/root/.cache/go-build/b0/b03d64975ce4b5081ee36c6846d0e954564d3ae6974e7fb85e503661442446e1-d
+packagefile golang.org/x/text/internal/language=/root/.cache/go-build/12/12733466490ea3e124da690f20652f8dfa03a88b10a7aeb4da5fe90514ac74ad-d
+packagefile golang.org/x/text/internal/language/compact=/root/.cache/go-build/0e/0e501f3d9d0e438a27155c4a2f210ef1f97ba73b9ec95dad1bdc1912984b6806-d
+packagefile encoding/gob=/root/.cache/go-build/9f/9fee51841e6a73e102ebaa4385f9d217c617ba96303f253b6ebf0f14667b2240-d
+packagefile go/token=/root/.cache/go-build/b2/b29c2c55b9bdc3e3e056aead3474de9a1d7284cc680e3e3c792639cab842e893-d
+packagefile google.golang.org/protobuf/internal/detrand=/root/.cache/go-build/88/88a41447db2d99f1ecc45bb2ffbf894fdb419b8654d9723b7d522fca14d19214-d
+packagefile crypto/internal/boring/sig=/root/.cache/go-build/c5/c5e6ac255ca13ea77e5cc59fe8beb66aa04cefe595305d02ac163ebd20f1dd62-d
+packagefile crypto/internal/alias=/root/.cache/go-build/94/94e38b6552829e69f1cb6c18037917ec6b70c45c0978d9b0bfaff071f46818af-d
+packagefile crypto/internal/edwards25519/field=/root/.cache/go-build/d8/d8215b7da0f29b562abcbfaaaee59df1db1cf9484235640fb0c40cd0e3b4ffdb-d
+packagefile crypto/internal/nistec=/root/.cache/go-build/40/40126df63f8ea1d4f766529ff2c729decc9b8c5908c3cdfd973c470fbf2b0f78-d
+packagefile crypto/internal/bigmod=/root/.cache/go-build/8a/8aa50ca3c693816e7913ad5796dd10c493eb568a4557cc3cced0d87a7e449a61-d
+packagefile crypto/internal/boring/bbig=/root/.cache/go-build/10/10663338ea1b178910ae42a9693ad4ad175f68ce46777710c8ff32664461dffc-d
+packagefile vendor/golang.org/x/crypto/cryptobyte/asn1=/root/.cache/go-build/53/535945a21d5ac12597e41ee70bd3e8763be0740dffb6df691502fd76cdb9a94f-d
+packagefile crypto/internal/edwards25519=/root/.cache/go-build/f7/f784d7e8b7f5a28e0ee3d9569c2124a21fa52d7a09e74a85a0f653ee0cbd084f-d
+packagefile crypto/dsa=/root/.cache/go-build/62/62f820f380aa2097553a8ac86b6948868c8c7c36253a733f60364d0801e7e8a1-d
+packagefile crypto/x509/pkix=/root/.cache/go-build/4a/4a003c8394bab7fd9e4cbf22ec3d1eaae0f9d2e3d89ccf0402581f5d67968f0d-d
+packagefile encoding/asn1=/root/.cache/go-build/92/928834f08c79cc89029aaa571a1247cfef2aaece52a6bc76fdfb70daf48b2eb5-d
+packagefile vendor/golang.org/x/crypto/chacha20=/root/.cache/go-build/03/030f5c9641f02c1314e1390c01e88d5fe758357922772b056879445ac04681f8-d
+packagefile vendor/golang.org/x/crypto/internal/alias=/root/.cache/go-build/45/45673b08ce52a6aaeaf4606c6edb41eece4a78b75be339800c780b140d993c5b-d
+packagefile vendor/golang.org/x/crypto/internal/poly1305=/root/.cache/go-build/66/6691befb6370112daec705799fe62f6d98212d8464abfe05977c95e1b4a2e667-d
+packagefile vendor/golang.org/x/sys/cpu=/root/.cache/go-build/d4/d45010e63c0bb26c54bc838d30cb1a05cbeabfd66c82830cd34619164a242422-d
+packagefile golang.org/x/text/transform=/root/.cache/go-build/a5/a5c40f7b099a18580b2f0b898ea6ceb9ec61eb74344d58808fc128032c93be09-d
+packagefile vendor/golang.org/x/text/transform=/root/.cache/go-build/5f/5f59f099df34c7a8ad74d886786fd228fa432c161ac14d435e811319755d9c62-d
+packagefile github.com/go-playground/locales/currency=/root/.cache/go-build/94/947373447fb8060883db78d66dde5771912774c657f9a25a0661412b27bf6d14-d
+packagefile golang.org/x/text/internal/tag=/root/.cache/go-build/c1/c1fa4b53cb606a506782a5d8629f0d9c905891e9802bab2a2c5101a88544092d-d
+packagefile internal/saferio=/root/.cache/go-build/92/92b95335a72fabddedc7cb7f3854b53a8cfb987cce0609880cb267768161dc55-d
+packagefile hash/fnv=/root/.cache/go-build/a9/a9c5f22b47aaa3c7818020483e9dc98b4ecd110970e56a03729ad28bc9482533-d
+packagefile crypto/internal/nistec/fiat=/root/.cache/go-build/72/72948a4298f0ba409daefadc35db309ea341c1157daa5acbd9aa98fcc908fa70-d
+packagefile embed=/root/.cache/go-build/84/84ae1739ce9d5fcd3dd8064f5881ec018b857bc53622da91abc8614ee01716ea-d
+modinfo "0w\xaf\f\x92t\b\x02A\xe1\xc1\a\xe6\xd6\x18\xe6path\tcommand-line-arguments\ndep\tFaceRecognition\t(devel)\t\ndep\tgithub.com/Kagami/go-face\tv0.0.0-20210630145111-0c14797b4d0e\th1:lqIUFzxaqyYqUn4MhzAvSAh4wIte/iLNcIEWxpT/qbc=\ndep\tgithub.com/gin-contrib/sse\tv0.1.0\th1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE=\ndep\tgithub.com/gin-gonic/gin\tv1.9.0\th1:OjyFBKICoexlu99ctXNR2gg+c5pKrKMuyjgARg9qeY8=\ndep\tgithub.com/go-playground/locales\tv0.14.1\th1:EWaQ/wswjilfKLTECiXz7Rh+3BjFhfDFKv/oXslEjJA=\ndep\tgithub.com/go-playground/universal-translator\tv0.18.1\th1:Bcnm0ZwsGyWbCzImXv+pAJnYK9S473LQFuzCbDbfSFY=\ndep\tgithub.com/go-playground/validator/v10\tv10.11.2\th1:q3SHpufmypg+erIExEKUmsgmhDTyhcJ38oeKGACXohU=\ndep\tgithub.com/leodido/go-urn\tv1.2.1\th1:BqpAaACuzVSgi/VLzGZIobT2z4v53pjosyNd9Yv6n/w=\ndep\tgithub.com/mattn/go-isatty\tv0.0.17\th1:BTarxUcIeDqL27Mc+vyvdWYSL28zpIhv3RoTdsLMPng=\ndep\tgithub.com/pelletier/go-toml/v2\tv2.0.6\th1:nrzqCb7j9cDFj2coyLNLaZuJTLjWjlaz6nvTvIwycIU=\ndep\tgithub.com/ugorji/go/codec\tv1.2.9\th1:rmenucSohSTiyL09Y+l2OCk+FrMxGMzho2+tjr5ticU=\ndep\tgolang.org/x/crypto\tv0.5.0\th1:U/0M97KRkSFvyD/3FSmdP5W5swImpNgle/EHFhOsQPE=\ndep\tgolang.org/x/net\tv0.7.0\th1:rJrUqqhjsgNp7KqAIc25s9pZnjU7TUcSY7HcVZjdn1g=\ndep\tgolang.org/x/sys\tv0.5.0\th1:MUK/U/4lj1t1oPg0HfuXDN/Z1wv31ZJ/YcPiGccS4DU=\ndep\tgolang.org/x/text\tv0.7.0\th1:4BRB4x83lYWy72KwLD/qYDuTu7q9PjSagHvijDw7cLo=\ndep\tgoogle.golang.org/protobuf\tv1.28.1\th1:d0NfwRgPtno5B1Wa6L2DAG+KivqkdutMf1UhdNx175w=\ndep\tgopkg.in/yaml.v3\tv3.0.1\th1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=\nbuild\t-buildmode=exe\nbuild\t-compiler=gc\nbuild\t-ldflags=\"-w -s\"\nbuild\tCGO_ENABLED=1\nbuild\tCGO_CFLAGS=\nbuild\tCGO_CPPFLAGS=\nbuild\tCGO_CXXFLAGS=\nbuild\tCGO_LDFLAGS=\nbuild\tGOARCH=amd64\nbuild\tGOOS=linux\nbuild\tGOAMD64=v1\n\xf92C1\x86\x18 r\x00\x82B\x10A\x16\xd8\xf2"
+EOF
+mkdir -p $WORK/b001/exe/
+cd .
+/usr/local/go/pkg/tool/linux_amd64/link -o $WORK/b001/exe/a.out -importcfg $WORK/b001/importcfg.link -buildmode=exe -buildid=o1NnNnAlIHq9gA8iMU6Y/yNkqaHQxT-h8-6V5Logq/qqJWrHN-99YvQLOBM7xX/o1NnNnAlIHq9gA8iMU6Y -w -s -extld=g++ $WORK/b001/_pkg_.a
+/usr/local/go/pkg/tool/linux_amd64/buildid -w $WORK/b001/exe/a.out # internal
+mv $WORK/b001/exe/a.out faceserver
+rm -r $WORK/b001/
